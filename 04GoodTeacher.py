@@ -9,4 +9,4 @@ x = input("Teacher's name (try Mr Horan) ")
 if x == "Mr Horan":
     print("You are lucky, he is a great teacher.")
 else:
-    print(x + "is an ok teacher")
+    print(x + " is an ok teacher")
