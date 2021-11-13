@@ -7,8 +7,9 @@ print ("|                                               |")
 print (" ------------------------------------------------")
 x = input("What is the name of this subject ")
 while x != "IST":
-    print("Not Correct - try again")
     x += 1
+    if x != "IST":
+        continue
+    print("Not Correct - try again")
 else:
-    print(" ")
     print("Congratualations")
